@@ -1,0 +1,37 @@
+Tensorflow custom object detection
+
+(Possible workarounds and steps on Windows 8/8.1/10)
+
+1.Use protobuf 3.4.0/3.0.0,use full path for protoc.exe path to compile files using protobuf
+
+2.While using anaconda put the files compiled using proto in host's anaconda tensorflow directory eg. "tensorflow1/research/object_detection/protos"
+
+3.For tensorboard , start tensorboard at the directory where graphs are ie. training folder(in this case)
+
+4.Inside of "tensorflow1/research/object_detection"  directory
+Required directory structure:
+training/
+	object-detection.pbtxt
+	ssd_mobilenet_v1_pets.config
+
+data/
+	test_labels.csv
+	train_labels.csv
+	test.record(Generated using TFRecord)
+	train.record(Generated using TFRecord)
+
+images/
+	test/
+		test images
+	train/
+		train images
+
+...
+
+
+
+
+
+
+
+
