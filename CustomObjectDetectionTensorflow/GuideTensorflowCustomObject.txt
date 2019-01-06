@@ -27,7 +27,7 @@ images/
 		train images
 
 ...
-
+5.LabelImg is used to manually annotate the image labels.
 
 
 
