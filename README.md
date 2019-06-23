@@ -1,2 +1,2 @@
 # DL-ML-notebooks
-Collection of Deep Learning and Machine Learning notebooks
+Collection of my Deep Learning and Machine Learning notebooks
